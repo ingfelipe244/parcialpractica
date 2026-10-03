@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#foto_ppal
+{
+    width: 100%;
+}
+#menuPpal {
+    background-color: #333333;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+
+#menuPpal a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#menuPpal li {
+    display: inline;
+    padding: 8px;
+}
+#productos_ppales
+{
+    padding: 50px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    background: -webkit-linear-gradient(#666666,#CCCCCC);
+}
+
+.contieneProd
+{
+    width: 300px;
+    height: 300px;
+}
+img
+{
+    width: 100%;
+}
+#video_promocion
+{
+    height: 500px;
+    background: -webkit-linear-gradient(#a9a9a9,#666666);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+#v2
+{
+    padding-bottom: 50px;
+}
+#equipoventas
+{
+    height: 500px;
+    background-color: #CCCCCC;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#eq1
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #666666;
+    background-image: url(imagenes/equipo1subir.jpg);
+}
+#eq2
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #666666;
+    background-image: url(imagenes/equipo2subir.jpg);
+}
+#eq3
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #666666;
+    background-image: url(imagenes/equipo3subir}.jpeg);
+}
